@@ -1,0 +1,72 @@
+.item-detail {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 40px;
+  margin: 20px auto;
+  max-width: 900px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.item-detail-image-container {
+  flex: 1;
+}
+
+.item-detail-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.item-detail-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-detail-name {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.item-detail-category {
+  font-style: italic;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.item-detail-description {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.item-detail-price {
+  font-size: 2em;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/* Placeholder styles for ItemCount */
+.item-count {
+  margin-top: auto; /* Pushes the counter to the bottom */
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.item-count button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.item-count button:hover {
+  background-color: #218838;
+}
